@@ -9,3 +9,4 @@ src/main/webapp/dist/
 *.MF
 .metadata/
 src/main/webapp/bower_components/
+src/main/webapp/bower_components/moment/

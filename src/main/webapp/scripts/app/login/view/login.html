@@ -1,5 +1,5 @@
 <div style="position: relative; " class="fs-headline display-block white-text aligncenter m20 text-darken-3">School Management</div>
-<div flex="100" layout="row" layout-fill layout-align="center center" layout-margin md-theme="default">
+<div flex="100" layout="row" layout-fill layout-align="center center" layout-margin md-theme="default" class="mtop20">
 	<div flex-sm="80" flex-md="50" flex-lg="40" flex="25" flex-container="column">
 	  <form name="loginForm" id="loginForm" ng-submit="login(user)">
     	<div flex-item>
@@ -46,7 +46,13 @@
 					</div>
 	            </div>
 	        </div>
-	        <div class="aligncenter" style="margin-top: 10px;" layout-fill><span ng-click="opendDialog('helpDesk');" class="grey-text text-darken-5">Having trouble ? Send us a message</span></div>
+	        <div class="aligncenter" style="margin-top: 10px;" layout-fill><span ng-click="opendDialog('helpDesk');" class=" aligncenter grey-text text-darken-5">Having trouble ? Send us a message</span></div>
+	     	<div class="aligncenter black-text text-darken-5 m10">Powered by </div>
+	     	<div>
+		     	<div layout-fill layout-align="center center" >
+			    	<img   class="w150 mlt30p" src="assets/images/codette-small-logo.png">
+			    </div>
+		    </div>
 	      </div>
       </form>
     </div>
@@ -70,7 +76,7 @@
 	     	</div>
         </div>
     </div>
-	<form id="updateAddressForm" ng-submit="save()">
+    <form id="updateAddressForm" ng-submit="save()">
 	    <div class="dialog__content p+">
 	    	<div class="row">
 			    <form class="col s12">
